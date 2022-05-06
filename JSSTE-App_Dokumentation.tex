@@ -1,0 +1,27 @@
+
+\documentclass[
+11pt,
+a4paper, 
+ngerman
+]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\input{allgemein/packages}
+
+\input{config}
+
+\begin{document}
+	
+	\thispagestyle{plain}
+	\input{deckblatt}
+	\cleardoublepage
+	
+	\pagenumbering{Roman}
+	\tableofcontents
+	\cleardoublepage
+	
+	\pagenumbering{arabic}
+	\input{inhalt}
+	\cleardoublepage
+	
+\end{document}
